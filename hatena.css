@@ -27,11 +27,12 @@
   border: none;
   border-radius: 0;
 }
-.entry-content h3{
-    color: #ffffff;
-    background: #2ca9e1;
-    padding: 15px 15px;
-    }
+.entry-content h3 {
+  padding: 4px 10px;
+  color: #111;
+  background-color: #f0f0f0;
+  border-left: 8px solid #2ca9e1;
+}
 /*中見出し*/
 /* 見出しのリセット */
 .entry-content h4,
