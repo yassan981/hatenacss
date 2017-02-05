@@ -1,8 +1,23 @@
 /*********フォローボタン**********/
 .follow-btn{width:100%;margin:5px 0}.follow-btn ul{list-style:none;display:-webkit-flex;display:flex;margin:0;padding:0}.follow-btn li{height:80px;width:100%;-webkit-transition:width .3s ease-out;transition:width .3s ease-out;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center}.btn1-icon:before,.btn2-icon:before,.btn3-icon:before,.btn4-icon:before{display:inline-block;font-family:blogicon}.follow-btn li:hover{width:200%}.follow-btn li span{line-height:2.5;font-size:180%;font-style:normal;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.btn1{background:#5F5E5E}.btn2{background:#6FB6C3}.btn3{background:#82C36F}.btn4{background:#6998b9}.btn1-icon:before{content:"\f000"}.btn2-icon:before{content:"\f035"}.btn3-icon:before{content:"\f04e"}.btn4-icon:before{content:"\f036"}.follow-btn a{width:100%;height:100%;font-size:13px;line-height:1;font-weight:400;text-decoration:none;text-align:center;color:#fff;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}
-/*ボタン*/
+/*商品紹介用ボタン*/
 .mb-10{margin-bottom:30px}
 .btn-mod,a.btn-mod{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:4px 13px;color:#fff;background:rgba(34,34,34,.9);border:2px solid transparent;font-size:11px;font-weight:400;text-transform:uppercase;text-decoration:none;letter-spacing:2px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transition:all .2s cubic-bezier(0,0,.58,1);-moz-transition:all .2s cubic-bezier(0,0,.58,1);-o-transition:all .2s cubic-bezier(0,0,.58,1);-ms-transition:all .2s cubic-bezier(0,0,.58,1);transition:all .2s cubic-bezier(0,0,.58,1)}.btn-mod:focus,.btn-mod:hover,a.btn-mod:focus,a.btn-mod:hover{font-weight:400;color:rgba(255,255,255,.85);background:rgba(0,0,0,.7);text-decoration:none;outline:0}.btn-mod:active{cursor:pointer!important}.btn-mod.btn-small{padding:6px 17px;font-size:11px;letter-spacing:1px}.btn-mod.btn-medium{padding:8px 37px;font-size:12px}.btn-mod.btn-large{padding:12px 45px;font-size:13px}.btn-mod.btn-gray{color:#777;background:#e5e5e5}.btn-mod.btn-gray:focus,.btn-mod.btn-gray:hover{color:#444;background:#d5d5d5}.btn-mod.btn-circle{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.btn-mod.btn-round{-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.show-button{display:inline-block;border:2px solid #000;border-radius:5px;padding:10px 15px;cursor:pointer}.show-button:hover{background:#000;color:#fff;transition:.3s}.hide-area{display:none}
 }
 /*関連記事関係*/
 .hatena-module-related-entries{display:none}#relateArticle .hatena-module-title{font-size:22px;border-top:1px solid grey;border-bottom:1px solid grey;line-height:50px;margin-top:10px;padding:0 10px;font-weight:400;color:#000}#relateArticle ul{margin-bottom:10px}#relateArticle li{padding:10px}#relateArticle li:nth-child(2n){background-color:#FFF}#relateArticle li:nth-child(2n+1){background-color:#F3F3F3}
+/* 続きを読むボタン */
+.entry-content .entry-see-more {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    background-color: #e6e6e6;
+    color: rgba(0, 0, 0, 0.9);
+    float:right; 
+}
+.entry-content .entry-see-more:hover {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    background-color: #0f1121;
+    color: rgba(255, 255, 255, 0.9);
+    float:right; 
+}
