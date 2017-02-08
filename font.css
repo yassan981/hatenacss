@@ -6,7 +6,7 @@
 }
 /* 記事フォント */
 .entry-content {
-    font-family: 'Noto Sans', "Helvetica Neue", Helvetica, "Avenir Next", "游ゴシック体", '游ゴシック', YuGothic, 'Yu Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "メイリオ", Meiryo, sans-serif;
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 16px;
     line-height: 1.8em;
     font-weight: 400;
