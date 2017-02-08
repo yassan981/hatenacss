@@ -1,5 +1,3 @@
-/*********フォローボタン**********/
-.follow-btn{width:100%;margin:5px 0}.follow-btn ul{list-style:none;display:-webkit-flex;display:flex;margin:0;padding:0}.follow-btn li{height:80px;width:100%;-webkit-transition:width .3s ease-out;transition:width .3s ease-out;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center}.btn1-icon:before,.btn2-icon:before,.btn3-icon:before,.btn4-icon:before{display:inline-block;font-family:blogicon}.follow-btn li:hover{width:200%}.follow-btn li span{line-height:2.5;font-size:180%;font-style:normal;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.btn1{background:#5F5E5E}.btn2{background:#6FB6C3}.btn3{background:#82C36F}.btn4{background:#6998b9}.btn1-icon:before{content:"\f000"}.btn2-icon:before{content:"\f035"}.btn3-icon:before{content:"\f04e"}.btn4-icon:before{content:"\f036"}.follow-btn a{width:100%;height:100%;font-size:13px;line-height:1;font-weight:400;text-decoration:none;text-align:center;color:#fff;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}
 /*商品紹介用ボタン*/
 .mb-10{margin-bottom:30px}
 .btn-mod,a.btn-mod{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:4px 13px;color:#fff;background:rgba(34,34,34,.9);border:2px solid transparent;font-size:11px;font-weight:400;text-transform:uppercase;text-decoration:none;letter-spacing:2px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transition:all .2s cubic-bezier(0,0,.58,1);-moz-transition:all .2s cubic-bezier(0,0,.58,1);-o-transition:all .2s cubic-bezier(0,0,.58,1);-ms-transition:all .2s cubic-bezier(0,0,.58,1);transition:all .2s cubic-bezier(0,0,.58,1)}.btn-mod:focus,.btn-mod:hover,a.btn-mod:focus,a.btn-mod:hover{font-weight:400;color:rgba(255,255,255,.85);background:rgba(0,0,0,.7);text-decoration:none;outline:0}.btn-mod:active{cursor:pointer!important}.btn-mod.btn-small{padding:6px 17px;font-size:11px;letter-spacing:1px}.btn-mod.btn-medium{padding:8px 37px;font-size:12px}.btn-mod.btn-large{padding:12px 45px;font-size:13px}.btn-mod.btn-gray{color:#777;background:#e5e5e5}.btn-mod.btn-gray:focus,.btn-mod.btn-gray:hover{color:#444;background:#d5d5d5}.btn-mod.btn-circle{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.btn-mod.btn-round{-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.show-button{display:inline-block;border:2px solid #000;border-radius:5px;padding:10px 15px;cursor:pointer}.show-button:hover{background:#000;color:#fff;transition:.3s}.hide-area{display:none}
@@ -20,4 +18,122 @@
     background-color: #0f1121;
     color: rgba(255, 255, 255, 0.9);
     float:right; 
+}
+/*フォローボタン*/
+.follow-me {
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+  padding: 0;
+}
+.follow-me li {
+  float: left;
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+.follow-me li a::before {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 16px;
+  height: 44px; /* Button height */
+  line-height: 44px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 44px; /* Button width */
+}
+.follow-me li a:hover::before {
+  opacity: 0.7;
+}
+.follow-me li a[href*="amazon.co.jp"]::before,
+.follow-me li a[href*="amazon.com"]::before         { background-color: #ff9900; content: "\f270"; }
+.follow-me li a[href*="facebook.com"]::before       { background-color: #3b5998; content: "\f09a"; }
+.follow-me li a[href*="feedly.com"]::before         { background-color: #6cc655; content: "\f09e"; }
+.follow-me li a[href*="plus.google.com"]::before    { background-color: #dc4e41; content: "\f0d5"; }
+.follow-me li a[href*="b.hatena.ne.jp"]::before     { background-color: #008fde; content: "\f027"; font-family: blogicon; }
+.follow-me li a[href*="twitter.com"]::before        { background-color: #55acee; content: "\f099"; }
+.follow-me li a[href$="/feed"]::before              { background-color: #ffa500; content: "\f09e"; }
+.follow-me li a[href$="/subscribe"]::before         { background-color: #363636; content: "\f000";  font-family: blogicon; }
+.follow-me li a::before {
+    -webkit-border-radius: 2px; /* for Android ~4.3 */
+    border-radius: 32px;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+/* SNSフォローボタン上テキストのCSS指定 */
+.sns-txt{
+    display: inline-block;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    font-size: 13px; /* 文字の大きさを変える時は変更する */
+    border-top: 1px solid #3b3b3b;  /* 上のボーダーの色や太さを変える時は変更 */
+    border-bottom: 1px solid #3b3b3b;  /* 下のボーダーの色や太さを変える時は変更 */
+}
+
+/* SNSフォローボタン枠のCSS指定 */
+.sns-follow{
+    display: table;  
+    width: 100%;
+    margin: 0 auto 32px;
+}
+
+/* SNSフォローボタンのCSS指定 */
+
+.sns-follow a {
+    display: table-cell;
+    font-size: 35px; /* SNSマークの大きさを変えたい場合は変更する */
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 25%; /* SNSを増やす場合は変更する。 合計で100%以下になるように。 */
+    height: 48px; /* ボックスの高さを変えたい場合は変更する */
+    layout-grid-line: 50px; /* 変更しない IE7以下対応  */
+    color: #fff; /* SNSロゴの色を変えたい場合は変更する */
+}
+
+.sns-follow .hatena-button {
+    transition: 1s ease;
+    background: #54575d;
+}
+.sns-follow .twitter-button {
+    transition: 1s ease;
+    background: #5db9ff;  /* 背景色を変更したい場合は変更する */
+}
+.sns-follow .facebook-button {
+    transition: 1s ease;
+    background: #395eaf;  /* 背景色を変更したい場合は変更する */
+}
+.sns-follow .feedly-button { 
+    transition: 1s ease;
+    background: #84c34c;  /* 背景色を変更したい場合は変更する */
+}
+
+/* SNSフォローボタンオーバーフロー時のCSS指定 */
+
+.sns-follow .hatena-button:hover {
+    transition: .3s ease;
+    color: #3d3f44; /* 背景色を変更したい場合は変更する */
+    background:#fff;
+}
+.sns-follow .twitter-button:hover {
+    transition: .3s ease;
+    color: #55acee; /* 背景色を変更したい場合は変更する */
+    background:#fff;
+}
+.sns-follow .facebook-button:hover {
+    transition: .3s ease;
+    color: #305097; /* 背景色を変更したい場合は変更する */
+    background:#fff;
+}
+.sns-follow .feedly-button:hover {
+    transition: .3s ease;
+    color: #75ad43; /* 背景色を変更したい場合は変更する */
+    background:#fff;
 }
