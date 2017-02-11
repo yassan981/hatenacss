@@ -22,7 +22,7 @@ body
   -webkit-text-size-adjust:none;
   -ms-overflow-style:scrollbar;
   background:#fff;
-  padding-top:6em;
+  padding-top: em;
   background-color:#fff;
   color:#666;
 }
@@ -59,8 +59,8 @@ table
 
 .container
 {
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width:80em;
 }
 
@@ -1434,7 +1434,7 @@ table.alt thead
 
 #main
 {
-  padding-top:4em;
+  padding-top: em;
 }
 
 #footer
@@ -1442,7 +1442,7 @@ table.alt thead
   background:#f6f6f6;
   color:#aaa;
   text-align:center;
-  padding:8em 0 6em;
+  padding: em 0 em;
 }
 
 #footer a
