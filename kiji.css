@@ -44,3 +44,25 @@ a.keyword {
 	content: "\f043";
 	margin-right: 2px;
 	}
+/*カテゴリーちゃんと表示*/
+.categories a{
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+}
+/*記事幅*/
+#blog-title-inner,
+#content-inner,
+#footer-inner,
+.breadcrumb {
+    max-width: 720px; /* for Smartphone and Tablet */
+}
+
+@media screen and (min-width: 960px) {
+    #blog-title-inner,
+    #content-inner,
+    #footer-inner,
+    .breadcrumb {
+        max-width: 1117px; /* for PC */
+    }
+}
