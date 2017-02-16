@@ -66,22 +66,23 @@
     width: 50px;
 }
 /* SNSフォローボタン上テキストのCSS指定 */
-.sns-txt{
+.sns-txt {
     display: inline-block;
-    margin: 10px 0;
+    color: #f1f1f1;
+    margin: 5px 0;
     width: 100%;
     text-align: center;
-    line-height: 2em;
-    font-size: 13px; /* 文字の大きさを変える時は変更する */
-    border-top: 1px solid #3b3b3b;  /* 上のボーダーの色や太さを変える時は変更 */
-    border-bottom: 1px solid #3b3b3b;  /* 下のボーダーの色や太さを変える時は変更 */
+    line-height: 2.5em;
+    font-size: 15px; /* 文字の大きさを変える時は変更する */
+    border-top: 3px solid #c7c6c6; /* 上のボーダーの色や太さを変える時は変更 */
+    border-bottom: 3px solid #c7c6c6; /* 下のボーダーの色や太さを変える時は変更 */
+    background-color: #656565; 
 }
-
 /* SNSフォローボタン枠のCSS指定 */
 .sns-follow{
     display: table;  
     width: 100%;
-    margin: 0 auto 32px;
+    margin: 0 auto 25px;
 }
 
 /* SNSフォローボタンのCSS指定 */
