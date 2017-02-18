@@ -55,7 +55,7 @@ a.keyword {
 #content-inner,
 #footer-inner,
 .breadcrumb {
-    max-width: 800px; /* for Smartphone and Tablet */
+    max-width: 767px; /* for Smartphone and Tablet */
 }
 
 @media screen and (min-width: 960px) {
@@ -63,6 +63,6 @@ a.keyword {
     #content-inner,
     #footer-inner,
     .breadcrumb {
-        max-width: 1197px; /* for PC */
+        max-width: 1164px; /* for PC */
     }
 }
