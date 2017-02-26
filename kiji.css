@@ -25,11 +25,10 @@ h3 {
 /* 中見出しデザイン */
 h4 {
   font-family: 'Montserrat', sans-serif;
-  color: #000000; 
   background: #ececec;
   border-radius: 5px; 
   padding: 20px 20px;
-  font-weight: normal
+  font-weight: 700;
 }
 /* 小見出しデザイン */
 h5 {
