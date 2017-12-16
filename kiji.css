@@ -1,7 +1,7 @@
 /* 記事タイトルフォント */
 .entry-title {
     font-family: 'Open Sans','Noto Sans',sans-serif;
-    font-size: 19px;
+    font-size: 25px;
     letter-spacing:0.1em;
 }
 @media screen and (max-width: 480px){
