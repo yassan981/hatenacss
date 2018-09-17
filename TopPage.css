@@ -1,6 +1,9 @@
 /*トップページCSS*/
 /*トップページ幅*/
 @media screen and ( max-width:500px ) {
+.page-archive .archive-heading {
+    padding: 0px !important;
+}
 .page-archive #content-inner {
     padding: 0px !important;
 }
