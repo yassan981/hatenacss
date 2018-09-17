@@ -1,4 +1,21 @@
 /*トップページCSS*/
+/*トップページ幅*/
+.page-archive #content-inner {
+    padding: 0px !important;
+}
+.page-archive .archive-entry-header {
+    padding: 0 20px !important;
+}
+.page-archive .categories {
+    padding: 0 20px !important;
+}
+.page-archive .pager {
+    padding: 0 20px !important;
+}
+.page-archive #box2 {
+    padding: 0 20px !important;
+}
+
 /*記事タイトルカテゴリー順番*/
 .archive-entry.autopagerize_page_element{
     display: -webkit-flex; /* Safari */
