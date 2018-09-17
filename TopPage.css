@@ -1,0 +1,94 @@
+/*トップページCSS*/
+/*記事タイトルカテゴリー順番*/
+.archive-entry.autopagerize_page_element{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: column; /* Safari */
+    display: flex;
+    flex-direction: column;
+}
+.archive-entry-body{
+    -webkit-order: 1; /* Safari */
+    order: 1;
+}
+.archive-entry-header{
+    -webkit-order: 2; /* Safari */
+    order: 2;
+}
+.categories{
+    -webkit-order: 3; /* Safari */
+    order: 3;
+}
+/*タイトル日付順番*/
+.archive-entry-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  align-content: center; }
+
+  .archive-entry-header .date.archive-date{
+    -webkit-order: 1; /* Safari */
+    order: 1;
+    width: 100%; }
+    
+  .archive-entry-header .entry-title{
+    -webkit-order: 2; /* Safari */
+    order: 2; }
+
+/*サムネイル*/
+.page-archive .entry-thumb {
+    width: 100% !important;
+    height: 222px !important;
+    margin: 26px 0px 26px 0 !important;
+}
+
+.entry, .page-archive .archive-entry {
+    margin-bottom: 5px !important;
+    padding-bottom: 15px !important;
+}
+/*本文削除*/
+.entry-description {
+    display: none;
+}
+/* トップページカテゴリー&記事カテゴリー */
+.categories a {
+    border: 0px solid #e6e6e6;
+    border-radius: 30px;
+    float: left;
+    display: inline-block;
+    line-height: 32px;
+    margin: 0 6px 6px 0;
+    padding: 0 11px;
+    background-color: #424242;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Noto Sans Japanese";
+}
+.categories a:hover {
+    background-color: #e6e6e6;
+    color: #333;
+}
+.categories {
+    font-size: large;
+    margin-bottom: 12px;
+}
+/*はてなスター削除*/
+.page-index .hatena-star-add-button {
+ display: none;
+}
+.page-index .hatena-star-user {
+ display: none;
+}
+.page-index .hatena-star-star {
+ display: none;
+}
+.page-index .hatena-star-inner-count {
+ display: none;
+}
+.page-index .hatena-star-star-container {
+ display: none;
+}
