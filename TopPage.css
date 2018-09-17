@@ -1,5 +1,6 @@
 /*トップページCSS*/
 /*トップページ幅*/
+@media screen and ( max-width:500px ) {
 .page-archive #content-inner {
     padding: 0px !important;
 }
@@ -115,4 +116,5 @@
 }
 span.star-container {
     display: none;
+}
 }
