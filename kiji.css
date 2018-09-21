@@ -7,6 +7,13 @@
 @media screen and (max-width: 480px){
 .entry-title {
     font-size: 21px;
+    border-bottom: solid 1px #424242;
+    border-top: solid 1px #424242;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#blog-title-inner, #content-inner, #footer-inner, .breadcrumb-inner {
+    padding: 0 15px !important;
 }
 }
 /* 記事内フォント */
