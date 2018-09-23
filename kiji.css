@@ -11,6 +11,9 @@
 #blog-title-inner, #content-inner, #footer-inner, .breadcrumb-inner {
     padding: 0 15px !important;
 }
+.page-archive #content-inner {
+    padding: 0 0 !important;
+}
 }
 /* 記事内フォント */
 body {
