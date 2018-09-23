@@ -76,7 +76,6 @@
 .follow-me li a[href*="amazon.co.jp"]::before,
 .follow-me li a[href*="amazon.com"]::before         { background-color: #ff9900; content: "\f270"; }
 .follow-me li a[href*="facebook.com"]::before       { background-color: #3b5998; content: "\f09a"; }
-.follow-me li a[href*="feedly.com"]::before         { background-color: #6cc655; content: "\f09e"; }
 .follow-me li a[href*="plus.google.com"]::before    { background-color: #dc4e41; content: "\f0d5"; }
 .follow-me li a[href*="b.hatena.ne.jp"]::before     { background-color: #008fde; content: "\f027"; font-family: blogicon; }
 .follow-me li a[href*="twitter.com"]::before        { background-color: #55acee; content: "\f099"; }
