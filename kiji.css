@@ -80,3 +80,12 @@ a.keyword {
         max-width: 1164px; /* for PC */
     }
 }
+/*パンくず*/
+#top-box {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.breadcrumb {
+    margin-left: auto;
+    margin-right: auto;
+}
