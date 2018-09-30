@@ -50,6 +50,7 @@
   margin: 0 0 -8px;
   overflow: hidden;
   padding: 0;
+  display: inline-block;
 }
 .follow-me li {
   float: left;
