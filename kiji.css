@@ -2,11 +2,12 @@
 .entry-title {
     font-family: 'Open Sans','Noto Sans',sans-serif;
     font-size: 25px;
-    letter-spacing:0.1em;
+    letter-spacing:1.4px;
+    text-align: left;
 }
 @media screen and (max-width: 480px){
 .entry-title {
-    font-size: 21px;
+    font-size: 20px;
 }
 #blog-title-inner, #content-inner, #footer-inner, .breadcrumb-inner {
     padding: 0 15px !important;
