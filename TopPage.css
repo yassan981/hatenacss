@@ -39,8 +39,8 @@
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: left;
+  justify-content: left;
   -webkit-align-content: center;
   align-content: center; }
 
