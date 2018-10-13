@@ -1,3 +1,16 @@
+/* PrismJS 1.15.0
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+markdown+scss+sass */
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+/* ========================
+//#Google Prettify Theme New Moon 
+//#Version: 1
+//#Author: yassan
+//new moonのテーマを使いたかったので作りました。
+//======================== */
 :root {
     --bacckground:#2d2d2d;
     --Foreground:#cccccc;
@@ -11,51 +24,134 @@
     --Aqua:#76d4d6;
     --Purple:#d6acd6;
 }
-pre .str, code .str { color: var(--Green); } 
-pre .kwd, code .kwd { color: var(--Light-Yellow); }
-pre .com, code .com { color: var(--Comment); } 
-pre .typ, code .typ { color: var(--Foreground); } 
-pre .lit, code .lit { color: var(--Orange); } 
-pre .pun, code .pun { color: var(--Foreground); }   
-pre .pln, code .pln { color: var(--Foreground); }    
-pre .tag, code .tag { color: var(--blue); } 
-pre .atn, code .atn { color: var(--Yellow); } 
-pre .atv, code .atv { color: var(--Green); } 
-pre .dec, code .dec { color: var(--Purple); } 
-pre.prettyprint {
-    background: var(--bacckground)!important;
-    font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
-    border: 0 !important;
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: var(--Purple);
+	background: none;
+	font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+
 }
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L4,
-li.L5,
-li.L6,
-li.L7,
-li.L8,
-li.L9 {
-  padding-left: 1em;
-  list-style-type: decimal;
-  background-color: var(--bacckground);
-  list-style-position: outside;
-  margin-left: 36px;
-  padding-left: 16px;
-  border-left: 1px solid var(--Comment);
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
 }
-ol.linenums {
-    margin: 0px 0 0em 0em;
-    color: var(--Comment);
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: var(--bacckground);
 }
-pre, .entry-content pre {
-    border: 0px !important;
-    background-color: var(--bacckground) !important;
-    margin: 1em 0;
-    border-radius: 6px;
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
 }
-/* variable name */
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: var(--Comment);
+}
+
+.token.punctuation {
+	color: var(--Foreground);
+}
+
+.token.tag,
+.token.namespace,
+.token.deleted {
+	color: var(--blue);
+}
+
+.token.attr-name {
+    color: var(--Yellow);
+}
+
+.token.function-name {
+	color: var(--Yellow);
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+	color: var(--Aqua);
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+	color: var(--Foreground);
+}
+ 
+
+.token.selector,
+.token.important,
+.token.builtin {
+	color: var(--blue);
+}
+
+.token.atrule {
+    color: var(--Aqua);
+}
+
+.token.keyword {
+    color: var(--Light-Yellow)
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+	color: var(--Green);
+}
+
+.token.entity,
+.token.url {
+	color: var(--Green);
+}
+.token.operator {
+    color: var(--Orange);
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.token.inserted {
+	color: var(--Green);
+}
 .var {
     color: var(--Red);
 }
