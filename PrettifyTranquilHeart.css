@@ -110,7 +110,7 @@ pre[class*="language-"] {
 .token.selector,
 .token.important,
 .token.builtin {
-	color: var(--blue);
+	color: var(--Yellow);
 }
 
 .token.atrule {
