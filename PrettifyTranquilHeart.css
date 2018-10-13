@@ -36,6 +36,7 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
+	font-size:14px;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -53,6 +54,7 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
+	border-radius: 15px;
 }
 
 :not(pre) > code[class*="language-"],
@@ -152,10 +154,7 @@ pre[class*="language-"] {
 .token.inserted {
 	color: var(--Green);
 }
-.var {
-    color: var(--Red);
-}
-/* function name */
-.fun {
-    color: var(--Aqua);
+pre, .entry-content pre {
+    border: 0px !important;
+
 }
