@@ -1,77 +1,15 @@
-.prettyprint {
-    background: #2f3640!important;
-    font-family: Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace!important;
-    border: 0!important}
-.pln {
-    color: #e6e9ed}
-ol.linenums {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #656d78}
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L4,
-li.L5,
-li.L6,
-li.L7,
-li.L8,
-li.L9 {
-    padding-left: 1em;
-    background-color: #2f3640;
-    list-style-type: decimal}
-@media screen {
-    .str {
-        color: #ffce54}
-    .kwd {
-        color: #4fc1e9}
-    .com {
-        color: #656d78}
-    .typ {
-        color: #4fc1e9}
-    .lit {
-        color: #ac92ec}
-    .pun {
-        color: #e6e9ed}
-    .opn {
-        color: #e6e9ed}
-    .clo {
-        color: #e6e9ed}
-    .tag {
-        color: #ed5565}
-    .atn {
-        color: #a0d468}
-    .atv {
-        color: #ffce54}
-    .dec {
-        color: #ac92ec}
-    .var {
-        color: #e6e9ed}
-    .fun {
-        color: #e6e9ed}
-}
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L4,
-li.L5,
-li.L6,
-li.L7,
-li.L8,
-li.L9 {
-    list-style-position: outside;
-    margin-left: 36px;
-    padding-left: 16px;
-    border-left: 1px solid #656d78;
+.prettyprint{background:#2f3640!important;font-family:Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace!important;border:0!important}.pln{color:#e6e9ed}ol.linenums{margin-top:0;margin-bottom:0;color:#656d78}li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8,li.L9{padding-left:1em;background-color:#2f3640;list-style-type:decimal}@media screen{.str{color:#ffce54}.kwd{color:#4fc1e9}.com{color:#656d78}.typ{color:#4fc1e9}.lit{color:#ac92ec}.pun{color:#e6e9ed}.opn{color:#e6e9ed}.clo{color:#e6e9ed}.tag{color:#ed5565}.atn{color:#a0d468}.atv{color:#ffce54}.dec{color:#ac92ec}.var{color:#e6e9ed}.fun{color:#e6e9ed}}
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+  list-style-position: outside;
+  margin-left: 36px;
+  padding-left: 16px;
+  border-left: 1px solid #656d78;
 }
 ol.linenums {
-    margin: 0;
+    margin: 0px 0 0em 0em;
 }
-.entry-content pre,
-pre {
-    border: 0 solid #e6e6e6 !important;
+pre, .entry-content pre {
+    border: 0px solid #e6e6e6 !important;
     background-color: #2f3640 !important;
     margin: 1em 0;
     border-radius: 6px;
