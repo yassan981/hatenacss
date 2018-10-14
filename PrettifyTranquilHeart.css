@@ -80,7 +80,7 @@ pre .hljs {
   overflow-x: auto;
   background: var(--bacckground) !important;
   color: var(--text) !important;
-  padding: 0.5em !important;
+  padding: 1em !important;
   font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
   font-size: 14px !important;
   font-weight: 600;
@@ -130,7 +130,7 @@ pre .hljs {
 ..entry-content pre {
     border: 0px solid #e6e6e6;
     font-size: 0.9375em;
-    line-height: 1.4;
+    line-height: 1.8;
     margin: 0em;
     padding: 0em;
     border-radius: 8px;
