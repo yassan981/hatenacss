@@ -25,10 +25,10 @@
 }
 .hljs-comment, 
 .hljs-code {
-  color: ver(--Comment);
+  color: var(--Comment);
 }
 .hljs-meta {
-    background: ver(--meta);
+    background: var(--meta);
 }
 .hljs-attr, 
 .hljs-variable,
@@ -36,55 +36,55 @@
 .hljs-selector-class,
 .hljs-deletion,
 .hljs-section {
-  color: ver(--Yellow);
+  color: var(--Yellow);
 }
 .hljs-keyword, 
 .hljs-quote {
-    color: ver(--Light-Yellow);
+    color: var(--Light-Yellow);
 }
 .hljs-selector-id, 
 .hljs-literal {
-  color: ver(--Purple);
+  color: var(--Purple);
 }
 .hljs-number,
 .hljs-built_in,
 .hljs-builtin-name,
 .hljs-type {
-  color: ver(--Orange);
+  color: var(--Orange);
 }
 .hljs-attribute {
-  color: ver(--Foreground);
+  color: var(--Foreground);
 }
 .css.hljs .hljs-keyword,
 .hljs-regexp,
 .hljs-symbol,
 .hljs-link, 
 .hljs-addition {
-  color: ver(--Green);
+  color: var(--Green);
 }
 .hljs-selector-pseudo, 
 .hljs-title, 
 .hljs-params, 
 .hljs-keyword,
 .hljs-section {
-    color: ver(--Aqua);
+    color: var(--Aqua);
 }
 .hljs-name, 
 .hljs-tag, 
 .hljs-selector-tag {
-  color: ver(--blue);
+  color: var(--blue);
 }
 .hljs {
   display: block;
   overflow-x: auto;
-  background: ver(--bacckground) !important;
-  color: ver(--Foreground) !important;
+  background: var(--bacckground) !important;
+  color: var(--Foreground) !important;
   padding: 0.5em !important;
   font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
 }
 .hljs-bullet, 
 .hljs-emphasis {
-  color: ver(--Red);
+  color: var(--Red);
 }
 @media screen and (-ms-high-contrast: active) {
   .hljs-addition,
