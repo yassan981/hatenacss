@@ -83,7 +83,7 @@ pre .hljs {
   padding: 1em !important;
   font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
   font-size: 14px !important;
-  font-weight: 600;
+  font-weight: 500;
 }
 .hljs-bullet, 
 .hljs-emphasis {
