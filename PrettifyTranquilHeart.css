@@ -128,11 +128,10 @@ pre .hljs {
     margin: 0;
 }
 ..entry-content pre {
-    border: 0px solid #e6e6e6;
-    font-size: 0.9375em;
-    line-height: 1.8;
-    margin: 0em;
-    padding: 0em;
+    border: 0px !important;
+    line-height: 1.8 !important;
+    margin: 0em !important;
+    padding: 0em !important;
     border-radius: 8px;
     -webkit-border-radius: 8px;
 }
