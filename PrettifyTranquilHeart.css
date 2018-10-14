@@ -1,16 +1,14 @@
-/* PrismJS 1.15.0
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+markdown+scss+sass */
-/**
- * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
- * Based on https://github.com/chriskempson/tomorrow-theme
- * @author Rose Pritchard
- */
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
 /* ========================
-//#Google Prettify Theme New Moon 
+//#highlight.jsTheme New Moon 
 //#Version: 1
 //#Author: yassan
 //new moonのテーマを使いたかったので作りました。
 //======================== */
+
 :root {
     --bacckground:#2d2d2d;
     --Foreground:#cccccc;
@@ -23,138 +21,92 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
     --blue:#78aad6;
     --Aqua:#76d4d6;
     --Purple:#d6acd6;
+    --meta:#000
 }
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: var(--Purple);
-	background: none;
-	font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-	font-size:14px;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-
+.hljs-comment, 
+.hljs-code {
+  color: ver(--Comment);
 }
+.hljs-meta {
+    background: ver(--meta);
+}
+.hljs-attr, 
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-class,
+.hljs-deletion,
+.hljs-section {
+  color: ver(--Yellow);
+}
+.hljs-keyword, 
+.hljs-quote {
+    color: ver(--Light-Yellow);
+}
+.hljs-selector-id, 
+.hljs-literal {
+  color: ver(--Purple);
+}
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-type {
+  color: ver(--Orange);
+}
+.hljs-attribute {
+  color: ver(--Foreground);
+}
+.css.hljs .hljs-keyword,
+.hljs-regexp,
+.hljs-symbol,
+.hljs-link, 
+.hljs-addition {
+  color: ver(--Green);
+}
+.hljs-selector-pseudo, 
+.hljs-title, 
+.hljs-params, 
+.hljs-keyword,
+.hljs-section {
+    color: ver(--Aqua);
+}
+.hljs-name, 
+.hljs-tag, 
+.hljs-selector-tag {
+  color: ver(--blue);
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: ver(--bacckground) !important;
+  color: ver(--Foreground) !important;
+  padding: 0.5em !important;
+  font-family: 'SourceCodePro-Medium', 'DejaVu Sans Mono', 'Monaco', 'Consolas', 'ＭＳ Ｐゴシック', 'MS PGothic', monospace !important;
+}
+.hljs-bullet, 
+.hljs-emphasis {
+  color: ver(--Red);
+}
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
 
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 6px;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: var(--bacckground);
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.block-comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: var(--Comment);
-}
-
-.token.punctuation {
-	color: var(--Foreground);
-}
-
-.token.tag,
-.token.namespace,
-.token.deleted {
-	color: var(--blue);
-}
-
-.token.attr-name {
-    color: var(--Yellow);
-}
-
-.token.function-name {
-	color: var(--Yellow);
-}
-
-.token.boolean,
-.token.number,
-.token.function {
-	color: var(--Aqua);
-}
-
-.token.property,
-.token.class-name,
-.token.constant,
-.token.symbol {
-	color: var(--Foreground);
-}
- 
-
-.token.selector,
-.token.important,
-.token.builtin {
-	color: var(--Yellow);
-}
-
-.token.atrule {
-    color: var(--Aqua);
-}
-
-.token.keyword {
-    color: var(--Light-Yellow)
-}
-
-.token.string,
-.token.char,
-.token.attr-value,
-.token.regex,
-.token.variable {
-	color: var(--Green);
-}
-
-.token.entity,
-.token.url {
-	color: var(--Green);
-}
-.token.operator {
-    color: var(--Orange);
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-
-.token.inserted {
-	color: var(--Green);
-}
-pre, .entry-content pre {
-    border: 0px !important;
-
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
 }
