@@ -3,7 +3,7 @@
 /* @author: ericwbailey */
 
 /* ========================
-//#highlight.jsTheme New Moon 
+//#highlight.jsTheme New Moon
 //#Version: 1
 //#Author: yassan
 //new moonのテーマを使いたかったので作りました。
@@ -24,14 +24,14 @@
     --Purple:#d6acd6;
     --meta:#000
 }
-.hljs-comment, 
+.hljs-comment,
 .hljs-code {
   color: var(--Comment);
 }
 .hljs-meta {
     background: var(--meta);
 }
-.hljs-attr, 
+.hljs-attr,
 .hljs-variable,
 .hljs-template-variable,
 .hljs-selector-class,
@@ -39,11 +39,11 @@
 .hljs-section {
   color: var(--Yellow);
 }
-.hljs-keyword, 
+.hljs-keyword,
 .hljs-quote {
     color: var(--Light-Yellow);
 }
-.hljs-selector-id, 
+.hljs-selector-id,
 .hljs-literal {
   color: var(--Purple);
 }
@@ -59,19 +59,19 @@
 .css.hljs .hljs-keyword,
 .hljs-regexp,
 .hljs-symbol,
-.hljs-link, 
+.hljs-link,
 .hljs-addition {
   color: var(--Green);
 }
-.hljs-selector-pseudo, 
-.hljs-title, 
-.hljs-params, 
+.hljs-selector-pseudo,
+.hljs-title,
+.hljs-params,
 .hljs-keyword,
 .hljs-section {
     color: var(--Aqua);
 }
-.hljs-name, 
-.hljs-tag, 
+.hljs-name,
+.hljs-tag,
 .hljs-selector-tag {
   color: var(--blue);
 }
@@ -85,7 +85,7 @@ pre .hljs {
   font-size: 14px !important;
   font-weight: 500;
 }
-.hljs-bullet, 
+.hljs-bullet,
 .hljs-emphasis {
   color: var(--Red);
 }
@@ -116,7 +116,8 @@ pre .hljs {
 .hljs-ln-numbers {
     border-bottom: 0px !important;
     padding: 0 10px 0 0px !important;
-    border-right: 1px solid var(--Foreground);
+    border-right: 1px solid var(---Comment);
+    color: var(---Comment);
 }
 .hljs-ln-code {
     border-bottom: 0px !important;
@@ -124,7 +125,7 @@ pre .hljs {
     margin: 10px;
 }
 .hljs-ln {
-    border-top: 0px solid #e6e6e6 !important;
+    border-top: 0px !important;
     margin: 0;
 }
 .entry-content pre {
