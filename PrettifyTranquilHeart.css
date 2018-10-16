@@ -22,7 +22,8 @@
     --blue:#78aad6;
     --Aqua:#76d4d6;
     --Purple:#d6acd6;
-    --meta:#000
+    --meta:#000;
+    --border:#1d1d1d;
 }
 .hljs-comment,
 .hljs-code {
@@ -60,7 +61,8 @@
 .hljs-regexp,
 .hljs-symbol,
 .hljs-link,
-.hljs-addition {
+.hljs-addition,
+hljs-string {
   color: var(--Green);
 }
 .hljs-selector-pseudo,
@@ -115,8 +117,8 @@ pre .hljs {
 }
 .hljs-ln-numbers {
     border-bottom: 0px !important;
-    padding: 0 10px 0 0px !important;
-    border-right: 1px solid var(--Comment);
+    padding: 0 !important;
+    border-right: 1px solid var(--border);
     color: var(--Comment);
 }
 .hljs-ln-code {
