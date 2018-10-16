@@ -62,7 +62,7 @@
 .hljs-symbol,
 .hljs-link,
 .hljs-addition,
-hljs-string {
+.hljs-string {
   color: var(--Green);
 }
 .hljs-selector-pseudo,
