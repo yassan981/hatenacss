@@ -9,10 +9,10 @@
 .entry-title {
     font-size: 20px;
 }
-#blog-title-inner, #content-inner, #footer-inner, .breadcrumb-inner {
+#blog-title-inner, #content-inner, #footer-inner {
     padding: 0 15px !important;
 }
-.page-archive #content-inner {
+.page-archive #content-inner, .breadcrumb-inner {
     padding: 0 0 !important;
 }
 }
@@ -33,7 +33,7 @@ h3 {
 h4 {
   font-family: 'Montserrat', sans-serif;
   background: #ececec;
-  border-radius: 5px; 
+  border-radius: 5px;
   padding: 20px 20px;
   font-weight: 700;
 }
@@ -89,4 +89,41 @@ a.keyword {
 .breadcrumb {
     margin-left: auto;
     margin-right: auto;
+}
+.breadcrumb-inner {
+    text-align: left;
+    display: inline-block;
+}
+@media screen and (min-width: 768px){
+.breadcrumb-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+}}
+
+/*関連記事関係*/
+#relateArticle .hatena-module-title{
+  font-size:22px;
+  border-top: 3px solid #e0e0e0;
+  border-bottom: 3px solid #e0e0e0;
+  line-height: 50px;
+  margin-top: 10px;
+  padding: 0 10px;
+  font-weight:normal;
+  color: #000000;
+}
+
+#relateArticle ul {
+    margin-bottom: 10px;
+}
+
+#relateArticle li {
+    padding: 10px;
+}
+
+#relateArticle li:nth-child(2n) {  /* 偶数行 */
+   background-color: #FFFFFF;
+}
+
+#relateArticle li:nth-child(2n+1) {  /* 奇数行 */
+   background-color: #F3F3F3;
 }
