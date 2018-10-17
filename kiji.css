@@ -10,7 +10,7 @@
 .entry-title {
     font-size: 20px;
 }
-.page-archive #content-inner, .breadcrumb-inner {
+#content-inner, .breadcrumb-inner {
     padding: 0 0 !important;
 }
 div#top-box {
