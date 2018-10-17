@@ -132,6 +132,10 @@ a.keyword {
     padding-right: 0px;
 }}
 
+/*線いらない*/
+.page-entry #content {
+    border-top: 0px !important;
+}
 /*関連記事関係*/
 #relateArticle .hatena-module-title{
   font-size:22px;
@@ -147,11 +151,108 @@ a.keyword {
 #relateArticle ul {
     margin-bottom: 10px;
 }
-
-#relateArticle li {
-    padding: 10px;
+#relateArticle > .hatena-module-title::after {
+    position: absolute !important;
+    width: 95px !important;
+    height: 1px !important;
 }
-/*線いらない*/
-.page-entry #content {
-    border-top: 0px !important;
+@media screen and (min-width: 768px){
+/*関連記事カードデザイン*/
+div#relateArticle {
+    padding: 0 15px;
+}
+#relateArticle li {
+    padding: 20px 10px;
+}
+.urllist-with-thumbnails li .urllist-image {
+	float: left;
+	margin: 0px !important;
+}
+
+.urllist-title-link {
+    line-height: 1.5;
+    display: flex;
+    display: -webkit-flex;
+}
+.urllist-with-thumbnails li {
+    border-top: 0px solid !important;
+    margin: 10px 0;
+    border-radius: 7px;
+    background-color: #ededed;
+}
+
+.urllist-item-inner.related-entries-item-inner  {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.urllist-title-link.related-entries-title-link.urllist-title.related-entries-title {
+    order:1;
+    width: 60%;
+    margin: 0 10px 0 20px;
+}
+    
+.urllist-date-link.related-entries-date-link {
+    order:2;
+    position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+/*最新記事カードデザイン*/
+.urllist-item-inner.recent-entries-item-inner {
+    float: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.urllist-title-link.recent-entries-title-link.urllist-title.recent-entries-title {
+    order:1;
+    width: 60%;
+    margin: 0 10px 0 20px;
+}
+.urllist-date-link.recent-entries-date-link {
+    order:2;
+    position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+.urllist-item-inner.entries-access-ranking-item-inner {
+    float: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    display: -webkit-flex;
+}
+/*人気記事カードデザイン*/
+.urllist-title-link.entries-access-ranking-title-link.urllist-title.entries-access-ranking-title {
+    order:1;
+    width: 60%;
+    margin: 0 10px 0 20px;
+}
+
+
+.urllist-date-link.entries-access-ranking-date-link {
+    order:2;
+    position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+
+.urllist-with-thumbnails li {
+    padding: 20px 10px;
+}
+}
+/*フッター*/
+#footer .guest-footer .guest-footer-content h3 {
+    margin: 1em 0 1em;
+    display: inline-block;
+    border-left: 0px solid #505050;
+    color: #e1e1e1;
+    border-bottom: 2px solid #747474;
+}
+#footer .guest-footer .guest-footer-content {
+    background-color: #2d2d2d;
+    border-radius: 6px;
 }
