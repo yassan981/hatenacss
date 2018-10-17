@@ -156,7 +156,7 @@ a.keyword {
     width: 95px !important;
     height: 1px !important;
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
 /*関連記事カードデザイン*/
 div#relateArticle {
     padding: 0 15px;
@@ -191,7 +191,7 @@ div#relateArticle {
     width: 60%;
     margin: 0 10px 0 20px;
 }
-    
+
 .urllist-date-link.related-entries-date-link {
     order:2;
     position: absolute;
