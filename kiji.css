@@ -151,11 +151,3 @@ a.keyword {
 #relateArticle li {
     padding: 10px;
 }
-
-#relateArticle li:nth-child(2n) {  /* 偶数行 */
-   background-color: #FFFFFF;
-}
-
-#relateArticle li:nth-child(2n+1) {  /* 奇数行 */
-   background-color: #F3F3F3;
-}
