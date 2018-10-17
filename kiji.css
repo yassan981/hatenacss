@@ -178,7 +178,8 @@ div#relateArticle {
     border-top: 0px solid !important;
     margin: 10px 0;
     border-radius: 7px;
-    background-color: #ededed;
+    background-color: #fff;
+    box-shadow: 0px 5px 6px #ddd;
 }
 
 .urllist-item-inner.related-entries-item-inner  {
