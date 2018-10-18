@@ -118,6 +118,15 @@ a.keyword {
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
+div#top-box {
+    background: var(--base-color);
+    overflow: scroll;
+    white-space: nowrap;
+}
+.page-entry .breadcrumb {
+    margin-bottom: 0;
+    color: var(--main-accent-color);
+}
 .breadcrumb {
     margin-left: auto;
     margin-right: auto;
