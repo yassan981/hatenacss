@@ -48,7 +48,7 @@
     -webkit-order: 1; /* Safari */
     order: 1;
     width: 100%; }
-    
+
   .archive-entry-header .entry-title{
     -webkit-order: 2; /* Safari */
     order: 2; }
@@ -71,15 +71,15 @@
 /* トップページカテゴリー&記事カテゴリー */
 .categories a {
     border: 0px solid #e6e6e6;
-    border-radius: 30px;
+    border-radius: 4px;
     float: left;
     display: inline-block;
-    line-height: 32px;
+    line-height: 25px;
     margin: 0 6px 6px 0;
-    padding: 0 10px;
-    background-color: #424242;
-    color: #fff;
-    font-weight: bold;
+    padding: 0 6px;
+    background-color: var(--main-accent-color);
+    color: var(--text-color-another);
+    font-weight: normal;
     font-size: 12px;
     font-family: "Noto Sans Japanese";
 }
