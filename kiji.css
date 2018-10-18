@@ -58,7 +58,7 @@ body {
 /* 大見出しデザイン */
 h3 {
   font-family: 'Montserrat', sans-serif;
-  border-left: 8.5px solid #f6ad49;
+  border-left: 8.5px solid var(--main-accent-color);
   padding: 0.5em;
 }
 /* 中見出しデザイン */
