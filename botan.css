@@ -4,14 +4,12 @@
 }
 /* 続きを読むボタン */
 .entry-content .entry-see-more {
-    font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
     background-color: #e6e6e6;
     color: rgba(0, 0, 0, 0.9);
     float:right;
 }
 .entry-content .entry-see-more:hover {
-    font-family: 'Noto Sans', sans-serif;
     font-size: 17px;
     background-color: #0f1121;
     color: rgba(255, 255, 255, 0.9);
@@ -160,7 +158,6 @@
     border-top: 3px solid #c7c6c6;
     border-bottom: 3px solid #c7c6c6;
     background-color: #ffffff;
-    font-family: 'Open Sans','Noto Sans',sans-serif;
     font-weight: 600;
 }
 /* SNSフォローボタン枠のCSS指定 */
@@ -232,6 +229,5 @@
     line-height: 2.5em;
     font-size: 15px;
     border-bottom: 3px solid #c7c6c6;
-    font-family: 'Open Sans','Noto Sans',sans-serif;
     font-weight: bold;
 }
