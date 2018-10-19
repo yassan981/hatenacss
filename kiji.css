@@ -1,6 +1,5 @@
 /* 記事タイトルフォント */
 .entry-title {
-    font-family: 'Open Sans','Noto Sans',sans-serif;
     font-size: 25px;
     letter-spacing:1.4px;
     text-align: left;
@@ -50,20 +49,17 @@ aside#box2 {
 }
 /* 記事内フォント */
 body {
-    font-family: "Lato", "Noto Sans Japanese", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue","Segoe UI", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     font-size: 16px;
     line-height: 1.8em;
-    font-weight: 400;
 }
 /* 大見出しデザイン */
 h3 {
-  font-family: 'Montserrat', sans-serif;
   border-left: 8.5px solid var(--main-accent-color);
   padding: 0.5em;
 }
 /* 中見出しデザイン */
 h4 {
-  font-family: 'Montserrat', sans-serif;
   background: #ececec;
   border-radius: 5px;
   padding: 20px 20px;
@@ -71,7 +67,6 @@ h4 {
 }
 /* 小見出しデザイン */
 h5 {
-  font-family: 'Montserrat', sans-serif;
   border-bottom: 2.5px solid #a5a5a5;
   padding: 0.5em;
   margin-bottom: 1.2em;
