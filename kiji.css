@@ -139,10 +139,15 @@ a.keyword {
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
-div#top-box {
+#top-box {
     background: var(--base-color);
-    overflow: scroll;
+    overflow: inherit;
     white-space: nowrap;
+}
+@media screen and (max-width: 480px){
+  div#top-box {
+      overflow: scroll;
+  }
 }
 .page-entry .breadcrumb {
     margin-bottom: 0;
