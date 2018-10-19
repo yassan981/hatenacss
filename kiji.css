@@ -49,7 +49,7 @@ aside#box2 {
 }
 /* 記事内フォント */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN, Arial", Verdana, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN, Verdana, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
     font-size: 16px;
     line-height: 1.8em;
     font-weight: 400;
