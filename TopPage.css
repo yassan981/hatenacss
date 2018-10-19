@@ -81,7 +81,6 @@
     color: var(--text-color-another);
     font-weight: normal;
     font-size: 12px;
-    font-family: "Noto Sans Japanese";
 }
 .categories a:hover {
     background-color: #e6e6e6;
