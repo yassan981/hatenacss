@@ -106,11 +106,11 @@
 .page-index .hatena-star-star-container {
  display: none;
 }
+}
 /*トップページはてなスター削除*/
 .page-archive .social-buttons {
     display: none;
 }
 span.star-container {
     display: none;
-}
 }
