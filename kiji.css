@@ -175,12 +175,10 @@ a.keyword {
     border-bottom: 0px !important;
 }
 /*関連記事関係*/
-img.urllist-image.recent-entries-image {
-    width: 100px;
-    height: auto;
-}
 .urllist-with-thumbnails li .urllist-image {
     box-shadow: 2px 4px 5px rgba(0,0,0,0.16);
+    width: 100px;
+    height: auto;
 }
 #relateArticle .hatena-module-title{
   font-size:22px;
