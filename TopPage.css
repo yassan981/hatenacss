@@ -64,6 +64,7 @@
 .entry, .page-archive .archive-entry {
     margin-bottom: 5px !important;
     padding-bottom: 15px !important;
+    background-color: var(--content-color);
 }
 /*本文削除*/
 .entry-description {
