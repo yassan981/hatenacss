@@ -56,8 +56,9 @@
 /*サムネイル*/
 .page-archive .entry-thumb {
     width: 100% !important;
-    height: 222px !important;
-    margin: 26px 0px 26px 0 !important;
+    height: 55vw !important;
+    margin: 0 !important;
+    background-position: center;
 }
 
 .entry, .page-archive .archive-entry {
